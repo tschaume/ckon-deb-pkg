@@ -1,0 +1,25 @@
+Source: ckon
+Section: science
+Priority: optional
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Patrick Huck <patrick@the-huck.com>
+Build-Depends: debhelper (>=9), dh-autoreconf, libboost1.50-all-dev, libcurl4-openssl-dev
+Standards-Version: 3.9.3
+DM-Upload-Allowed: yes
+Homepage: http://tschaume.github.com/ckon
+#Vcs-Git: git://git.debian.org/git/debian-science/packages/ckon.git
+#Vcs-Browser: http://git.debian.org/?p=debian-science/packages/ckon.git
+
+Package: ckon
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: automatic build tool ROOT data analysis software
+ ckon is a C++ program/tool which automatically takes care of compilation,
+ dictionary generation and linking of programs and libraries developed for data
+ analyses within the CERN ROOT analysis framework. This includes parsing
+ include headers to figure out which libraries the main programs need to be
+ linked to.  It uses automake/autoconf to be platform independent and GNU
+ install compliant.  In addition, m4 macros are automatically downloaded and the
+ according compiler flags included based on a list of boost libraries provided
+ in the config file.  For the purpose of YAML database usage, a m4 macro can be
+ downloaded during setup to link against the yaml-cpp library.

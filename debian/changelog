@@ -1,0 +1,6 @@
+ckon (0.6.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #733910)
+  * my first debian package :)
+
+ -- Patrick Huck <patrick@the-huck.com>  Thu, 02 Jan 2014 11:25:09 +0000
