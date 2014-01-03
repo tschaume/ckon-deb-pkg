@@ -1,3 +1,10 @@
+ckon (0.6.3-1) unstable; urgency=low
+
+  * update version in ckon.1
+  * make 0.6.2-2 unstable in changelog
+
+ -- Patrick Huck <patrick@the-huck.com>  Fri, 03 Jan 2014 05:40:43 +0000
+
 ckon (0.6.2-2) unstable; urgency=low
 
   * fix debian/watch file
