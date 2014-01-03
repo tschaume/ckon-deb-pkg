@@ -1,4 +1,4 @@
-ckon (0.6.2-2) UNRELEASED; urgency=low
+ckon (0.6.2-2) unstable; urgency=low
 
   * fix debian/watch file
   * help2man manpage file
