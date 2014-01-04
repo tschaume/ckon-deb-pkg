@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Uploaders: Patrick Huck <patrick@the-huck.com>
 Build-Depends: debhelper (>=9), dh-autoreconf, libboost-all-dev, libcurl4-openssl-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.5
 DM-Upload-Allowed: yes
 Homepage: http://tschaume.github.com/ckon
 #Vcs-Git: git://git.debian.org/git/debian-science/packages/ckon.git
