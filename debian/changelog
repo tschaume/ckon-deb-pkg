@@ -1,3 +1,10 @@
+ckon (0.6.4-1) unstable; urgency=medium
+
+  * switch to libboost-all-dev
+  * update version and standards
+
+ -- Patrick Huck <patrick@the-huck.com>  Sat, 04 Jan 2014 07:31:35 +0000
+
 ckon (0.6.3-1) unstable; urgency=low
 
   * update version in ckon.1
