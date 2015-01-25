@@ -1,8 +1,8 @@
 #!/bin/bash
 
-VERSION=0.6.4
+VERSION=0.7
 MIN_BOOST_VERSION=1.50
-MIN_CURL_VERSION=7.34.0
+MIN_CURL_VERSION=7.15.5
 
 [ -e configure.ac ] && rm -v configure.ac
 
