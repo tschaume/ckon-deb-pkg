@@ -4,7 +4,9 @@
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
 #include <boost/foreach.hpp>
+#include <boost/algorithm/string.hpp>
 
+#include <iostream>
 #include <string>
 #include <vector>
 #include <algorithm>
@@ -144,6 +146,16 @@ int main(int argc, char *argv[]) {
       putenv(const_cast<char*>(export_build.c_str()));
       fs::path prefix(fs::absolute(clopts->ckon_install_dir));
       string config_call = "../configure --prefix=" + prefix.string();
+      if ( !clopts->ckon_boost.empty() ) {
+	config_call += " --with-boost";
+	if ( getenv("BOOST_ROOT") != NULL ) { config_call += "=$BOOST_ROOT"; }
+	vector<string> boost_libs = utils::split(clopts->ckon_boost);
+	BOOST_FOREACH(string s, boost_libs) {
+	  boost::replace_all(s, "_", "-");
+	  config_call += " --with-boost-" + s;
+	}
+      }
+      cout << config_call << endl;
       system(config_call.c_str());
     }
 
