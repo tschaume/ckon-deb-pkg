@@ -1,18 +1,21 @@
 Source: ckon
-Section: science
-Priority: optional
 Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
 Uploaders: Patrick Huck <patrick@the-huck.com>
-Build-Depends: debhelper (>=9), dh-autoreconf, libboost-all-dev, libcurl4-openssl-dev
-Standards-Version: 3.9.5
-DM-Upload-Allowed: yes
+Section: science
+Priority: optional
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               libboost-all-dev,
+               libcurl4-openssl-dev
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-science/packages/ckon.git
+Vcs-Git: git://anonscm.debian.org/debian-science/packages/ckon.git
 Homepage: http://tschaume.github.com/ckon
-Vcs-Git: git://git.debian.org/git/debian-science/packages/ckon.git
-Vcs-Browser: http://git.debian.org/?p=debian-science/packages/ckon.git
 
 Package: ckon
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
 Description: automatic build tool ROOT data analysis software
  ckon is a C++ program/tool which automatically takes care of compilation,
  dictionary generation and linking of programs and libraries developed for data
