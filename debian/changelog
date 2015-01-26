@@ -1,3 +1,10 @@
+ckon (0.7.1-1) unstable; urgency=medium
+
+  * Imported Upstream version 0.7.1
+  * debian/control: activate Vcs-Git/Browser
+
+ -- Patrick Huck <patrick@the-huck.com>  Mon, 26 Jan 2015 01:43:49 +0000
+
 ckon (0.6.4-1) unstable; urgency=medium
 
   * switch to libboost-all-dev
