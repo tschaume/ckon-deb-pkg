@@ -3,7 +3,13 @@ Upstream-Name: ckon
 Source: https://github.com/tschaume/ckon/releases
 
 Files: *
-Copyright: 2013 Patrick Huck <patrick@the-huck.com>
+Copyright: 2013-2015 Patrick Huck <patrick@the-huck.com>
+License: MIT
+
+Files: debian/*
+Copyright: 2014-2015 Patrick Huck <patrick@the-huck.com>
+License: MIT
+
 License: MIT
  Permission is hereby granted, free of charge, to any person obtaining a copy
  of this software and associated documentation files (the "Software"), to deal

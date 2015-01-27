@@ -16,7 +16,7 @@ Package: ckon
 Architecture: any
 Depends: ${shlibs:Depends},
          ${misc:Depends}
-Description: automatic build tool ROOT data analysis software
+Description: automatic build tool for ROOT data analysis software
  ckon is a C++ program/tool which automatically takes care of compilation,
  dictionary generation and linking of programs and libraries developed for data
  analyses within the CERN ROOT analysis framework. This includes parsing
