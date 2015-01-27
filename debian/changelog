@@ -1,5 +1,6 @@
 ckon (0.7.1-2) unstable; urgency=medium
 
+  * Initial release (Closes: #733910)
   * add packaging.md
   * implement A. Tille's suggestions
   * Imported Upstream version 0.7.1
@@ -14,7 +15,6 @@ ckon (0.7.1-2) unstable; urgency=medium
   * remove debian/*.ex
   * working on linitian warnings
   * fix missing manpage lintian warning
-  * Initial release (Closes: #733910)
   * my first debian package :)
 
  -- Patrick Huck <patrick@the-huck.com>  Tue, 27 Jan 2015 08:00:44 +0000
