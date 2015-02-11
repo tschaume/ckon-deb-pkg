@@ -1,3 +1,10 @@
+ckon (0.7.1-3) unstable; urgency=medium
+
+  * Use explicit --with-boost-libdir since multiarch detection does not work on
+    *-i386 architectures.  (Closes: #777631)
+
+ -- Patrick Huck <patrick@the-huck.com>  Wed, 11 Feb 2015 02:54:39 +0000
+
 ckon (0.7.1-2) unstable; urgency=medium
 
   * Initial release (Closes: #733910)
