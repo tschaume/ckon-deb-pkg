@@ -7,5 +7,11 @@ export DH_OPTIONS=-v
 	dh $@ --with autoreconf
 
 override_dh_auto_configure:
-	dh_auto_configure -- --disable-silent-rules --with-boost --with-boost-filesystem \
-	--with-boost-system --with-boost-regex --with-boost-program-options
+	dh_auto_configure -- \
+	  --disable-silent-rules \
+	  --with-boost \
+	  --with-boost-filesystem \
+	  --with-boost-system \
+	  --with-boost-regex \
+	  --with-boost-program-options \
+	  --with-boost-libdir=/usr/lib/$(DEB_HOST_MULTIARCH)
